@@ -2334,7 +2334,6 @@ on_randr_event (GnomeRRScreen *screen, gpointer user_data)
 static void
 handle_suspend_actions (GsdPowerManager *manager)
 {
-        backlight_disable (manager);
         uninhibit_suspend (manager);
 }
 
